@@ -1,0 +1,8 @@
+#N canvas 339 55 463 436 12;
+#X msg 136 103 set hello world;
+#X symbolatom 225 225 10 0 0 0 - - - 0;
+#X msg 284 104 get hello;
+#X obj 225 201 dbm;
+#X connect 0 0 3 0;
+#X connect 2 0 3 0;
+#X connect 3 0 1 0;
